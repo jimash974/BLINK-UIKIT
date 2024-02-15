@@ -18,6 +18,11 @@
 		5830F5A62B75FEC200346EC5 /* ScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5A52B75FEC200346EC5 /* ScrollViewTest.swift */; };
 		5830F5A82B76062D00346EC5 /* ScrollViewTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5A72B76062D00346EC5 /* ScrollViewTest2.swift */; };
 		5830F5AB2B7B1C3700346EC5 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5AA2B7B1C3700346EC5 /* ScheduleVC.swift */; };
+		5830F5AE2B7B703B00346EC5 /* BookmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5AD2B7B703B00346EC5 /* BookmarkButton.swift */; };
+		5830F5B02B7BB9E000346EC5 /* BusScheduleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5AF2B7BB9E000346EC5 /* BusScheduleCard.swift */; };
+		5830F5B22B7CED5F00346EC5 /* BusScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5B12B7CED5F00346EC5 /* BusScheduleList.swift */; };
+		5830F5B42B7DD92500346EC5 /* testBusScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5B32B7DD92500346EC5 /* testBusScheduleList.swift */; };
+		5830F5B72B7DFEC300346EC5 /* SchedulePageActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F5B62B7DFEC300346EC5 /* SchedulePageActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		5830F5A52B75FEC200346EC5 /* ScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest.swift; sourceTree = "<group>"; };
 		5830F5A72B76062D00346EC5 /* ScrollViewTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTest2.swift; sourceTree = "<group>"; };
 		5830F5AA2B7B1C3700346EC5 /* ScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		5830F5AD2B7B703B00346EC5 /* BookmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkButton.swift; sourceTree = "<group>"; };
+		5830F5AF2B7BB9E000346EC5 /* BusScheduleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusScheduleCard.swift; sourceTree = "<group>"; };
+		5830F5B12B7CED5F00346EC5 /* BusScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusScheduleList.swift; sourceTree = "<group>"; };
+		5830F5B32B7DD92500346EC5 /* testBusScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBusScheduleList.swift; sourceTree = "<group>"; };
+		5830F5B62B7DFEC300346EC5 /* SchedulePageActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePageActions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,9 +271,30 @@
 		5830F5A92B7B1BD900346EC5 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				5830F5B52B7DFEB200346EC5 /* Extension */,
+				5830F5AC2B7B702C00346EC5 /* Component */,
 				5830F5AA2B7B1C3700346EC5 /* ScheduleVC.swift */,
 			);
 			path = Schedule;
+			sourceTree = "<group>";
+		};
+		5830F5AC2B7B702C00346EC5 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5830F5AD2B7B703B00346EC5 /* BookmarkButton.swift */,
+				5830F5AF2B7BB9E000346EC5 /* BusScheduleCard.swift */,
+				5830F5B12B7CED5F00346EC5 /* BusScheduleList.swift */,
+				5830F5B32B7DD92500346EC5 /* testBusScheduleList.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5830F5B52B7DFEB200346EC5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5830F5B62B7DFEC300346EC5 /* SchedulePageActions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,13 +367,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5830F59C2B71EEF400346EC5 /* HomePageActions.swift in Sources */,
+				5830F5AE2B7B703B00346EC5 /* BookmarkButton.swift in Sources */,
+				5830F5B72B7DFEC300346EC5 /* SchedulePageActions.swift in Sources */,
 				5830F59E2B71F40800346EC5 /* PickerViewFunctions.swift in Sources */,
+				5830F5B42B7DD92500346EC5 /* testBusScheduleList.swift in Sources */,
+				5830F5B22B7CED5F00346EC5 /* BusScheduleList.swift in Sources */,
 				5830F5A12B71F5B700346EC5 /* SearchButton.swift in Sources */,
 				5830F5762B6CD2A900346EC5 /* HomePageVC.swift in Sources */,
 				5830F5A62B75FEC200346EC5 /* ScrollViewTest.swift in Sources */,
 				5830F5AB2B7B1C3700346EC5 /* ScheduleVC.swift in Sources */,
 				5830F5A42B74D3E600346EC5 /* BookmarkCard.swift in Sources */,
 				5830F5722B6CD2A900346EC5 /* AppDelegate.swift in Sources */,
+				5830F5B02B7BB9E000346EC5 /* BusScheduleCard.swift in Sources */,
 				5830F5A82B76062D00346EC5 /* ScrollViewTest2.swift in Sources */,
 				5830F5742B6CD2A900346EC5 /* SceneDelegate.swift in Sources */,
 			);

@@ -151,8 +151,6 @@ class HomePageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         startingInput.translatesAutoresizingMaskIntoConstraints = false
         startingInput.addTarget(self, action: #selector(startingInputTapped), for: .editingDidBegin)
         
-        
-        
         let horDiv = UIView()
         horDiv.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.3)
         horDiv.translatesAutoresizingMaskIntoConstraints = false
@@ -307,9 +305,6 @@ class HomePageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
             scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -173.47)
         ])
-        
- 
-
     }
     
     func setUpBookmarkCard(){
@@ -328,6 +323,9 @@ class HomePageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.contentSize = CGSize(width: CGFloat(2) * CGFloat(264), height: scrollView.frame.height)
+        
+        print("ScrollView Frame: \(scrollView.frame)")
+        print("ScrollView ContentSize: \(scrollView.contentSize)")
     }
 }
 
